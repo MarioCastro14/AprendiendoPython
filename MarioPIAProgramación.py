@@ -7,13 +7,6 @@ class Videojuegos:
     def __init__(self, nombre, genero):
         self.nombre=nombre
         self.genero=genero
-    def Info(self):
-        print("Está es tu clase base.")
-        print(self.nombre)
-        print(self.genero)
-    def cantidadjuegos():
-        print("El número de juegos es {}")
-        print(txt.format(len(bibliotecajuegos)))
     def MostrarContenido(objeto):
         print(objeto.nombre)
         print(objeto.genero)
@@ -33,7 +26,6 @@ bibliotecajuegos.append(Videojuegos("Fortnite", "Battle Royale"))
 bibliotecajuegos.append(Videojuegos("Red Dead Redemption 2", "Acción, Aventura"))
 bibliotecajuegos.append(Videojuegos("Minecraft", "Aventura, Construcción"))
 bibliotecajuegos.append(Videojuegos("Grand Theft Auto V", "Acción"))
-cantidadjuegos=()
 
 
 #d)Mostramos los datos de las propiedades de la clase.
